@@ -1,7 +1,7 @@
 const express = require('express')
 const fs = require('fs')
 const oracledb = require("oracledb");
-const dbConfig = require("dbConfig.js");
+const dbConfig = require("/dbConfig.js");
 const app = express()
 const port = 7777
 
